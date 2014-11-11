@@ -4,11 +4,11 @@
 # Minecraft Launcher's java command.
 # Author: Andrew Marks
 
-LWJGL_JLP_OVRD="/usr/local/lib/lwjgl2.9.0"
+LWJGL_JLP_OVRD="/usr/local/lib/lwjgl2.9.1"
 LWJGL_OVRD="/usr/local/share/java/classes/lwjgl/lwjgl.jar"
 LWJGL_UTIL_OVRD="/usr/local/share/java/classes/lwjgl/lwjgl_util.jar"
 
-export JAVA_HOME=/usr/local/openjdk6
+export JAVA_HOME=/usr/local/openjdk7
 
 build_classpath() {
     j=0
